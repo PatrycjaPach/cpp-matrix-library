@@ -14,9 +14,7 @@ private:
     vector<vector<T>> _matrix;
 public:
     //deafult construcotr
-    Matrix(){
-        _matrix={{0}};
-    }
+    Matrix(): Matrix<T>(vector<vector<T>>{{0}}){}
 
     //parametrized constructor
     Matrix(const vector<vector<T>> & matrix): _matrix(matrix){

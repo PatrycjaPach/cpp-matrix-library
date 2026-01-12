@@ -2,7 +2,8 @@
 #include <stdexcept>
 
 #include "Matrix.hpp"
-
+#include "Diagonal.hpp"
+#include "Identity.hpp"
 using std::vector, std::cout, std::endl;
 
 int main(){
@@ -82,5 +83,19 @@ int main(){
     }catch(std::invalid_argument const& ex){
         cout<<ex.what()<<endl;
     }
+
+    pp::Diagonal<int> d(vector<int>{1,2,3});
+    d.read();
+    cout<<endl;
+    try{
+        cout<<d.determinant()<<endl;
+    }catch(std::invalid_argument const& ex){
+        cout<<ex.what()<<endl;
+    }
+    
+    cout<<endl;
+    pp::Identity<int> i(6);
+    i.read();
+
 
 }
