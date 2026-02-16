@@ -30,7 +30,7 @@ public:
      * \brief default constructor
      * a constructor that creates a matrix with one 0
      */
-    Matrix(): Matrix<T>(vector<vector<T>>{{0}}){}
+    Matrix(): Matrix(vector<vector<T>>{{0}}){}
     
     /**
      * \brief parametrized constructor

@@ -1,0 +1,3 @@
+C:/Users/lenovo/OneDrive/Pulpit/JPO/build/CMakeFiles/Matrix.dir
+C:/Users/lenovo/OneDrive/Pulpit/JPO/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/lenovo/OneDrive/Pulpit/JPO/build/CMakeFiles/ZERO_CHECK.dir
